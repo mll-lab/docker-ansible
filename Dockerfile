@@ -6,5 +6,5 @@ RUN pip install \
   ansible-lint \
   && apt-get update \
   && apt-get install -y \
-     openssh \
+     ssh \
   && rm -rf /var/lib/apt/lists/*
