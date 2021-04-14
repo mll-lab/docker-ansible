@@ -8,4 +8,5 @@ RUN pip install \
   && apt-get install -y \
      ssh \
      git \
+     make \
   && rm -rf /var/lib/apt/lists/*
